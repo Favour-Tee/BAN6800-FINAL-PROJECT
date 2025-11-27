@@ -1,0 +1,35 @@
+# Flask API Server Requirements
+# Bosch FMCG Pricing Model - Mock API Server
+
+# Core Flask framework
+Flask==3.0.0
+
+# WSGI server for production deployment (optional)
+gunicorn==21.2.0
+
+# CORS support for cross-origin requests (optional but recommended)
+flask-cors==4.0.0
+
+# JSON handling (included with Python, but explicit for clarity)
+# json - built-in
+
+# Date/time handling (built-in)
+# datetime - built-in
+
+# Random number generation (built-in)
+# random - built-in
+
+# Additional useful packages for API development
+Werkzeug==3.0.1
+
+# For better JSON serialization (optional)
+python-json-logger==2.0.7
+
+# For API documentation (optional)
+flask-swagger-ui==4.11.1
+
+# For request validation (optional but recommended)
+marshmallow==3.20.1
+
+# For environment variables management (optional)
+python-dotenv==1.0.0
